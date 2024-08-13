@@ -1,4 +1,4 @@
-# Daychers
+# Daychers Repository
 Repository to hold codes written and developed by the participating at Dayche Data Science &amp; AI Academy.
 
 Please follow @DaycheAcademy for update and: <br /> 
