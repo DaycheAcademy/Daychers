@@ -10,4 +10,3 @@ with open('BinaryNum.txt', 'br') as biFile:
 # with open('test.txt', 'br') as testFile:
 #     # a = hex(8)
 #     print(testFile.read())
-cdcldkdl
