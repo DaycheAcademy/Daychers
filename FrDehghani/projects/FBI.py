@@ -50,7 +50,7 @@ NonViolent_counts = [item['NonViolent'] for item in data]
 # plt.title('Number of Non_Violent crimes by Region')
 # plt.yticks(list(range(0, int(max(NonViolent_counts)) + 10000, 10000)))  # Set ticks at intervals of 10 for y_axis
 # plt.tight_layout()
-# plt.show()
+# plt.show()  ## masking by pandas of nompy  o
 
 # ==================================================================================================
 # 4th question
@@ -65,7 +65,7 @@ for item in data:  # add new item to each dictionary
     report_file.append(item['Region'])
     report_file.append(item['DifferenceOfMean'])
 # print(report_file)
-with open('report_file.json', 'w') as FBI_report:
+with open('../report_file.json', 'w') as FBI_report:
     print(FBI_report, report_file)
 #         print(FBI_report['DifferenceOfMean'])
 #     json.dump(data, FBI_report, indent=4)  # Write with pretty-printing
