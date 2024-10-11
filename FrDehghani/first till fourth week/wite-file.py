@@ -4,7 +4,7 @@ with open("output.txt", "w") as file:
 # ========================================================
 print("*"*50)
 
-fid = open("sample.txt", "r")
+fid = open("../projects/sample.txt", "r")
 print(fid.read())
 # ========================================================
 print("*"*50)
