@@ -9,6 +9,8 @@ def hori(b):
         turtle.pendown()
 
 
+turtle.speed(0)
+turtle.hideturtle()
 for i in range(9):
     turtle.penup()
     turtle.goto(0, -20*i)
@@ -55,5 +57,6 @@ for i in range(2):
     turtle.forward(180)
     turtle.penup()
 
+# turtle.hideturtle()
 turtle.done()
 
