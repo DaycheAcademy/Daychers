@@ -13,6 +13,8 @@ face_turtle.hideturtle()
 face_turtle.penup()
 face_turtle.goto(0, -120)
 face_turtle.pendown()
+face_turtle.pensize(10)
+face_turtle.pencolor('lightblue')
 face_turtle.circle(120)
 turtle.speed(0)
 for num in range(1, 13):
@@ -23,6 +25,7 @@ for num in range(1, 13):
     turtle.goto(x + 5, y - 15)
     turtle.pendown()
     turtle.hideturtle()
+    turtle.pencolor('blue')
     turtle.write(str(num), align="center", font=("Arial", 16, "bold"))
 
 hour_hand = turtle.Turtle()
@@ -59,10 +62,10 @@ try:
         second_angle = 90 - (seconds * 6)
 
         hour_hand.clear()
-        draw_hand(hour_hand, 50, hour_angle, "blue", 5)
+        draw_hand(hour_hand, 50, hour_angle, "green", 5)
 
         minute_hand.clear()
-        draw_hand(minute_hand, 70, minute_angle, "green", 3)
+        draw_hand(minute_hand, 70, minute_angle, "lightgreen", 3)
 
         if seconds == 0:
             second_hand.clear()
