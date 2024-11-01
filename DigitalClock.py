@@ -6,6 +6,7 @@ window = turtle.Screen()
 window.bgcolor("black")
 window.setup(width=600, height=300)
 window.title("Digital Clock")
+window.tracer(0)
 
 # Create the turtle to draw the clock
 clock_turtle = turtle.Turtle()
@@ -24,8 +25,8 @@ while True:
 
     # Display the time on the screen
     clock_turtle.write(current_time, align="center", font=("Arial", 50, "bold"))
-
+    window.update()
     time.sleep(1)  # Pause for 1 second before updating again
 
-turtle.tracer()
+
 
