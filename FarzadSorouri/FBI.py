@@ -1,8 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Read the data
-df = pd.read_json('D:/Python_Train/FBI_CrimeData_2016.json')
+df = pd.read_json('FBI_CrimeData_2016.json')
 
 # First subplot: Number of murders by region
 region_murders = df.groupby('Region')['Murder'].sum()
@@ -11,7 +10,7 @@ region_murders = df.groupby('Region')['Murder'].sum()
 fig, axes = plt.subplots(2, 2, figsize=(14, 10))
 
 # Plot 1: Number of murders by region (row 1, col 1)
-axes[0, 0].bar(region_murders.index, region_murders.values, color=plt.cm.Paired.colors[:len(region_murders)])
+axes[0, 0].bar(region_murders.index, region_murders.values, color=['red', 'green', 'blue', 'yellow'])
 axes[0, 0].set_title("Number of Murders by Region")
 axes[0, 0].set_xlabel("Region")
 axes[0, 0].set_ylabel("Murders")
@@ -21,7 +20,7 @@ for i, value in enumerate(region_murders.values):
 # Plot 2: Violent crimes by region (row 2, col 1)
 violent_Crimes_by_Region = df.groupby('Region')[['Assault', 'Murder', 'Robbery', 'Rape']].sum().reset_index()
 violent_Crimes_by_Region['sumOf_Violent_Crime'] = violent_Crimes_by_Region[['Assault', 'Murder', 'Robbery', 'Rape']].sum(axis=1)
-axes[1, 0].bar(violent_Crimes_by_Region['Region'], violent_Crimes_by_Region['sumOf_Violent_Crime'], color=plt.cm.Paired.colors[:len(violent_Crimes_by_Region)])
+axes[1, 0].bar(violent_Crimes_by_Region['Region'], violent_Crimes_by_Region['sumOf_Violent_Crime'], color=['red', 'green', 'blue', 'yellow'])
 axes[1, 0].set_title("Number of Violent Crimes by Region")
 axes[1, 0].set_xlabel("Region")
 axes[1, 0].set_ylabel("Violent Crimes")
@@ -31,7 +30,7 @@ for i, value in enumerate(violent_Crimes_by_Region['sumOf_Violent_Crime']):
 # Plot 3: Nonviolent crimes by region (row 1, col 2)
 nonviolent_Crimes_by_Region = df.groupby('Region')[['Burglary', 'Theft', 'Vehicle_Theft']].sum().reset_index()
 nonviolent_Crimes_by_Region['sumOf_nonViolent_Crime'] = nonviolent_Crimes_by_Region[['Burglary', 'Theft', 'Vehicle_Theft']].sum(axis=1)
-axes[0, 1].bar(nonviolent_Crimes_by_Region['Region'], nonviolent_Crimes_by_Region['sumOf_nonViolent_Crime'], color=plt.cm.Paired.colors[:len(nonviolent_Crimes_by_Region)])
+axes[0, 1].bar(nonviolent_Crimes_by_Region['Region'], nonviolent_Crimes_by_Region['sumOf_nonViolent_Crime'], color=['red', 'green', 'blue', 'yellow'])
 axes[0, 1].set_title("Number of Nonviolent Crimes by Region")
 axes[0, 1].set_xlabel("Region")
 axes[0, 1].set_ylabel("Nonviolent Crimes")
@@ -44,12 +43,10 @@ National_AVG_violent_Crimes_by_State['sumOf_Violent_Crime_State'] = National_AVG
 mean_violent_crime = violent_Crimes_by_Region['sumOf_Violent_Crime'].sum() / len(National_AVG_violent_Crimes_by_State['State'])
 National_AVG_violent_Crimes_by_State['distance from mean'] = National_AVG_violent_Crimes_by_State['sumOf_Violent_Crime_State'] - mean_violent_crime
 
-# Data to display in the table (first 20 rows)
 data_to_display = National_AVG_violent_Crimes_by_State.head(20)
 
-# Create a table for the 4th subplot
 axes[1, 1].axis('tight')
-axes[1, 1].axis('off')  # Hide axes for the table
+axes[1, 1].axis('off')
 table = axes[1, 1].table(
     cellText=data_to_display[['State', 'sumOf_Violent_Crime_State', 'distance from mean']].values,
     colLabels=['State', 'Sum of Violent Crimes', 'Distance from Mean'],
@@ -57,20 +54,18 @@ table = axes[1, 1].table(
     loc='center'
 )
 
-# Adjust table font size and column widths
 table.auto_set_font_size(False)
 table.set_fontsize(8)
 table.auto_set_column_width([0, 1, 2])
 
-# Adjust row height for better spacing
 for i, key in enumerate(table.get_celld().keys()):
     cell = table[key]
-    if i == 0:  # Skip header row
+    if i == 0:
         continue
-    cell.set_height(0.1)  # Adjust this value to increase/decrease row height
-
-# Adjust column width again to make sure it fits well
+    cell.set_height(0.05)
+ll
 table.auto_set_column_width([0, 1, 2])
 
 plt.tight_layout()
 plt.show()
+
