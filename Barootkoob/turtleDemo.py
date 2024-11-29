@@ -2,6 +2,7 @@ import turtle
 
 turtle.hideturtle()
 turtle.speed(0)
+turtle.tracer(0)
 turtle.goto(0, 0)
 for _ in range(4):
     turtle.pensize(5)
