@@ -1,0 +1,88 @@
+def caesar_decrypt(cipherText, shiftKey , inverse_alphabet_arg = 0 ) :
+
+    if inverse_alphabet_arg == 0 :
+        alphabet = "abcdefghijklmnopqrstuvwxyz"
+        ALPHABET = alphabet.upper()
+
+    if inverse_alphabet_arg == 1 :
+        alphabet = "zyxwvutsrqponmlkjihgfedcba"
+        ALPHABET = alphabet.upper()
+
+    empty_string = ""
+    for letter in cipherText :
+        if (letter >= "a" and letter <= "z" and shiftKey > 0) :
+            for ind , alpha in enumerate(alphabet, start=1) :
+                if letter == alpha :
+                    if shiftKey + ind <= 26:
+                        new_index = -shiftKey + ind - 1
+                        empty_string += alphabet[new_index]
+                    elif shiftKey + ind > 26:
+                        new_index = (-shiftKey + ind) % len(alphabet) - 1
+                        empty_string += alphabet[new_index]
+
+
+        elif ( letter >= "a" and letter <= "z" and shiftKey < 0 ) :
+            alphabet_inverse = alphabet[::-1]
+
+            for ind , alpha in enumerate(alphabet_inverse, start=1) :
+                if letter == alpha :
+                    if (-1*shiftKey) + ind <= 26 :
+                        new_index = (shiftKey) + ind - 1
+
+                        empty_string += alphabet_inverse[new_index]
+                    elif (-1*shiftKey) + ind > 26 :
+                        new_index = ((shiftKey) + ind) % len(alphabet_inverse) - 1
+                        empty_string += alphabet_inverse[new_index]
+
+
+        elif ( letter >= "A" and letter <= "Z" and shiftKey > 0 ) :              ### if "he?l l:o4%6"   ---->   "khhe?ol ol:ro4%6"
+            for ind , alpha in enumerate(ALPHABET, start=1) :
+                if letter == alpha :
+                    if -shiftKey + ind <= 26 :
+                        new_index = -shiftKey + ind - 1
+                        empty_string += ALPHABET[new_index]
+                    elif -shiftKey + ind > 26 :
+                        new_index = (-shiftKey + ind) % len(ALPHABET) - 1
+                        empty_string += ALPHABET[new_index]
+
+
+        elif (letter >= "A" and letter <= "Z" and shiftKey < 0) :
+            ALPHABET_INVERSE = ALPHABET[::-1]
+            # shiftKey = -1 * shiftKey
+            for ind, alpha in enumerate(ALPHABET_INVERSE, start=1):
+                if letter == alpha:
+                    if (-1*shiftKey) + ind <= 26:
+                        new_index = (shiftKey) + ind -1
+                        empty_string += ALPHABET_INVERSE[new_index]
+                    elif (-1*shiftKey) + ind > 26:
+                        new_index = ((shiftKey) + ind) % len(ALPHABET_INVERSE) - 1
+                        empty_string += ALPHABET_INVERSE[new_index]
+
+        else :
+            empty_string += letter
+    return empty_string
+
+
+
+
+
+def caesar_crack_based_max_letter( cipherText ) :
+    alphabet_ ="abcdefghijklmnopqrstuvwxyz"
+    dict_for_max = {}
+    list_of_tuple_inverse = []
+    for i in cipherText :
+        if i not in dict_for_max :
+            dict_for_max[i] = 1
+        dict_for_max[i] += 1
+    list_of_tuples = dict_for_max.items()
+    for i,j in list_of_tuples :
+        list_of_tuple_inverse .append( (j,i) )
+    list_of_tuple_inverse.sort()
+
+    for ind , i in enumerate(alphabet_,start=1) :
+        if i == list_of_tuple_inverse[-1][1].lower() :
+            indx_number = ind
+    shift_value = indx_number - 5
+    return caesar_decrypt( cipherText , shift_value , inverse_alphabet_arg = 0 )
+
+print( caesar_crack_based_max_letter("hVWG wGhVS pSGH qCADIHSF sLSFQWGS w vOJS sJSF sLDSFWSBQSR 2") )
