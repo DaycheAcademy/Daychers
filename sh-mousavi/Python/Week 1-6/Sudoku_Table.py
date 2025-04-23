@@ -3,9 +3,10 @@ import turtle
 turtle.hideturtle()
 turtle.speed("fastest")
 
-turtle.penup()
-turtle.goto(-135,135)
-turtle.pendown()
+# turtle.penup()
+# turtle.goto(-135,135)
+# turtle.pendown()
+turtle.teleport(-135, 135)
 
 turtle.pensize(5)
 for _ in range(4):
