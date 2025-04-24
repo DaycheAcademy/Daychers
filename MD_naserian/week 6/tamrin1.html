@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Models of __init__.py</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      padding: 20px;
+      background-color: #fafafa;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    h3 {
+      margin-top: 30px;
+      color: #34495e;
+    }
+    code {
+      background-color: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-family: Consolas, monospace;
+    }
+    pre {
+      background-color: #f4f4f4;
+      padding: 10px;
+      border-left: 4px solid #ccc;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    .model {
+      margin-top: 40px;
+    }
+    .icon {
+      font-size: 1.3em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Different Models of <code>__init__.py</code></h1>
+
+  <p>
+    Great question! The <code>__init__.py</code> file is used to mark a directory as a Python package.
+    Depending on the complexity and purpose of the package, <code>__init__.py</code> can take different 
+    "models" or forms — from empty, to minimal, to complex. Here are some different common models:
+  </p>
+
+  <div class="model">
+    <h3 class="icon">💡 1. <strong>Empty <code>__init__.py</code></strong></h3>
+    <p>✅ Best for simple packages where no initial setup is needed.</p>
+    <pre><code># __init__.py
+# This file is intentionally left blank.
+</code></pre>
+  </div>
+
+  <div class="model">
+    <h3 class="icon">🔹 2. <strong>Minimal Import Model</strong></h3>
+    <p>👉 Exposes only selected modules or symbols when using <code>from package import *</code>.</p>
+    <pre><code># __init__.py
+from .module1 import func1
+from .module2 import ClassA
+
+__all__ = ["func1", "ClassA"]
+</code></pre>
+  </div>
+
+  <div class="model">
+    <h3 class="icon">🔧 3. <strong>Initialization Logic Model</strong></h3>
+    <p>👉 Good when your package needs some setup (e.g., logging, configuration, checking dependencies).</p>
+    <pre><code># __init__.py
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+logger.info("Package initialized!")
+
+# Optionally import submodules
+from .core import Engine
+from .utils import helper_function
+
+__all__ = ["Engine", "helper_function"]
+</code></pre>
+  </div>
+
+  <div class="model">
+    <h3 class="icon">📦 4. <strong>Namespace Package Model (PEP 420)</strong></h3>
+    <p>✅ For splitting a single package across multiple directories. No <code>__init__.py</code> file is needed at all.</p>
+    <p>This is mostly used in large projects or plugins where sub-packages are distributed across different locations.</p>
+    <pre><code>mypackage/
+├── subpkg1/   (has no __init__.py)
+├── subpkg2/   (has no __init__.py)</code></pre>
+    <p>Python 3.3+ supports this by default.</p>
+  </div>
+
+  <div class="model">
+    <h3 class="icon">🧠 5. <strong>Dynamic Import Model</strong></h3>
+    <p>👉 Dynamically loads and registers components.</p>
+    <pre><code># __init__.py
+import importlib
+
+modules = ['module1', 'module2']
+for mod in modules:
+    globals()[mod] = importlib.import_module(f".{mod}", __package__)
+</code></pre>
+  </div>
+
+
+</body>
+</html>
