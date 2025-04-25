@@ -82,19 +82,27 @@ for j in range(9):
     
 
 
+def add_number(x, y):
+    text = turtle.textinput(title="insert your number", prompt="can't be reptited")
+    turtle.hideturtle()
+    turtle.penup()
+    turtle.goto(x, y)
+    turtle.color("red")
+    turtle.write(text,  font=("courier", 24, "bold"))
+
 
 # try to find X and Y
-def btnclick(x, y):
-    turtle.clear()
-    turtle.hideturtle()
-    text = f"x = {x}, y = {y}\n"
-    turtle.write(text, align="center", font=("courier", 18, "normal"))
-    with open("MD_naserian\\week 6\\location.txt", "a") as f:
-        f.write(text)
+# def btnclick(x, y):
+#     turtle.clear()
+#     turtle.hideturtle()
+#     text = f"x = {x}, y = {y}\n"
+#     turtle.write(text, align="center", font=("courier", 18, "normal"))
+#     with open("MD_naserian\\week 6\\location.txt", "a") as f:
+#         f.write(text)
     
 
 
-
-turtle.onscreenclick(btnclick, 1)
+turtle.onscreenclick(add_number, 1)
+# turtle.onscreenclick(btnclick, 1)
 turtle.listen()
 turtle.mainloop()
