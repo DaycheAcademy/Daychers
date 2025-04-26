@@ -11,7 +11,8 @@ import turtle
 import random
 screen = turtle.Screen()
 screen.setup(height=600, width=600)
-out = 500
+
+out = 550
 
 drawer = turtle.Turtle()
 drawer.hideturtle()
@@ -66,24 +67,66 @@ for i in range(1,9):
     angle *=-1
 
 
-# inserting the numbers:
+# inserting the default numbers:(unique for rows:) but not for columns:( )
 
+# y = (out/2)+(out*.044)
+# for j in range(9):
+#     x_base  = -(out/2)+(.11*(out/2))
+#     y -=out/9
+#     numbers = random.sample(range(1, 10), k=5)
+#     filled_positions = random.sample(range(9), k=5)
+#     for pos, num in zip(filled_positions, numbers):
+#         turtle.penup()
+#         turtle.hideturtle()
+#         x = x_base + pos * (out/9)
+#         turtle.goto(x, y)
+#         turtle.speed(0)
+#         turtle.write(num,  font=("courier", 18, "bold"))
+#solution by ai:
+
+# ... (keep all previous code for drawing the grid)
+
+# MODIFIED NUMBER INSERTION SECTION
+columns_used = [set() for _ in range(9)]  # Track used numbers in each column
 y = (out/2)+(out*.044)
-for j in range(9):
-    x_base  = -(out/2)+(.11*(out/2))
-    y -=out/9
-    numbers = random.sample(range(1, 10), k=5)
-    filled_positions = random.sample(range(9), k=5)
-    for pos, num in zip(filled_positions, numbers):
-        turtle.penup()
-        turtle.hideturtle()
-        x = x_base + pos * (out/9)
-        turtle.goto(x, y)
-        turtle.speed(0)
-        turtle.write(num,  font=("courier", 18, "bold"))
-        
-    
 
+for j in range(9):
+    x_base = -(out/2)+(.11*(out/2))
+    y -= out/9
+    
+    # Generate 5 random positions
+    filled_positions = random.sample(range(9), k=5)
+    valid_numbers = []
+    valid_positions = []
+    
+    # Shuffle positions to reduce conflict chances
+    random.shuffle(filled_positions)
+    
+    for pos in filled_positions:
+        # Get available numbers for this cell
+        available = set(range(1,10)) - columns_used[pos]
+        
+        # Remove numbers already chosen for this row
+        available -= set(valid_numbers)
+        
+        if available:
+            chosen = random.choice(list(available))
+            valid_numbers.append(chosen)
+            valid_positions.append(pos)
+            columns_used[pos].add(chosen)
+    
+    # Write valid numbers to grid
+    for pos, num in zip(valid_positions, valid_numbers):
+        x = x_base + pos * (out/9)
+        turtle.hideturtle()
+        turtle.penup()
+        turtle.goto(x, y)
+        turtle.write(num, font=("courier", 18, "bold"))
+
+# ... (keep rest of the code for user input handling)
+
+    
+#insert numbers by user:
 
 def add_number(x, y):
     text = turtle.textinput(title="insert your number", prompt="can't be reptited")
