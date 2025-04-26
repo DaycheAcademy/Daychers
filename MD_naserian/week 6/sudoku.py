@@ -5,20 +5,23 @@
 # 4.hide turtle
 # 5.highest speed
 # 6.fill sudoku
+
+
 import turtle
 import random
-
+screen = turtle.Screen()
+screen.setup(height=600, width=600)
+out = 500
 
 drawer = turtle.Turtle()
 drawer.hideturtle()
 drawer.penup()
-drawer.goto(-450, 450)
+drawer.goto(-out/2, out/2)
 drawer.speed(speed=0)
 drawer.pendown()
 
 
 # 1.outer line : 5
-out = 900
 for _ in range(4):
     drawer.pensize(5)
     drawer.forward(out)
@@ -65,19 +68,19 @@ for i in range(1,9):
 
 # inserting the numbers:
 
-y = 470
+y = (out/2)+(out*.044)
 for j in range(9):
-    x_base  = -400
-    y -=100
+    x_base  = -(out/2)+(.11*(out/2))
+    y -=out/9
     numbers = random.sample(range(1, 10), k=5)
     filled_positions = random.sample(range(9), k=5)
     for pos, num in zip(filled_positions, numbers):
         turtle.penup()
         turtle.hideturtle()
-        x = x_base + pos * 100
+        x = x_base + pos * (out/9)
         turtle.goto(x, y)
         turtle.speed(0)
-        turtle.write(num,  font=("courier", 24, "bold"))
+        turtle.write(num,  font=("courier", 18, "bold"))
         
     
 
