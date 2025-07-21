@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d0c1cc00-6478-4ede-a256-009bf1590d24" name="Changes" comment="week 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSajjadpour/week2/calculate_mean_unknown_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/MSajjadpour/week2/calculate_mean_unknown_number.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +135,7 @@
       <workItem from="1739267204075" duration="3743000" />
       <workItem from="1739785797805" duration="1194000" />
       <workItem from="1745244182492" duration="18000" />
-      <workItem from="1752925625500" duration="1976000" />
+      <workItem from="1752925625500" duration="4904000" />
     </task>
     <task id="LOCAL-00001" summary="Python_Course20">
       <option name="closed" value="true" />
