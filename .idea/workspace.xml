@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0c1cc00-6478-4ede-a256-009bf1590d24" name="Changes" comment="week 7">
+    <list default="true" id="d0c1cc00-6478-4ede-a256-009bf1590d24" name="Changes" comment="Solution to week 2 exercise">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +135,7 @@
       <workItem from="1739267204075" duration="3743000" />
       <workItem from="1739785797805" duration="1194000" />
       <workItem from="1745244182492" duration="18000" />
-      <workItem from="1752925625500" duration="4904000" />
+      <workItem from="1752925625500" duration="9062000" />
     </task>
     <task id="LOCAL-00001" summary="Python_Course20">
       <option name="closed" value="true" />
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1752925924169</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Solution to week 2 exercise">
+      <created>1753104521054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753104521054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +196,8 @@
     <MESSAGE value="Python_Course20" />
     <MESSAGE value="Add solvers till week 5" />
     <MESSAGE value="week 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 7" />
+    <MESSAGE value="Solution to week 2 exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution to week 2 exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
