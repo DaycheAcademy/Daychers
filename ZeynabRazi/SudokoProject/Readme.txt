@@ -1,5 +1,7 @@
-sudoku_grid.py = پشت صحنه بازی (منطق)
+sudoku_grid.py  >> Module 
 
-sudoku_gui.py = ظاهر بازی (پنجره، جدول)
+sudoku_gui.py  >> Gui Module
 
-main.py = کارگردان که صحنه و بازیگرها رو سر جاشون می‌ذاره و برنامه رو روشن می‌کنه
+main.py  >> entry point file 
+
+the folder include Sudoku.exe 
