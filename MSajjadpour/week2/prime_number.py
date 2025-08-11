@@ -7,3 +7,6 @@ for num in range(2, 1001):
     else:
         # This else runs only if the loop is NOT broken (i.e., num is prime)
         print(num)
+
+
+print("="*40)
