@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0c1cc00-6478-4ede-a256-009bf1590d24" name="Changes" comment="Solution to week 2 exercise">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSajjadpour/week2/prime_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/MSajjadpour/week2/prime_number.py" afterDir="false" />
-    </list>
+    <list default="true" id="d0c1cc00-6478-4ede-a256-009bf1590d24" name="Changes" comment="Solution to week 2 exercise" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +134,7 @@
       <workItem from="1739785797805" duration="1194000" />
       <workItem from="1745244182492" duration="18000" />
       <workItem from="1752925625500" duration="9062000" />
-      <workItem from="1754648228651" duration="5811000" />
+      <workItem from="1754648228651" duration="6408000" />
     </task>
     <task id="LOCAL-00001" summary="Python_Course20">
       <option name="closed" value="true" />
