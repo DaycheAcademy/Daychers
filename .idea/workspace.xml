@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0c1cc00-6478-4ede-a256-009bf1590d24" name="Changes" comment="csv exersice week5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d0c1cc00-6478-4ede-a256-009bf1590d24" name="Changes" comment="sudoku frame">
+      <change afterPath="$PROJECT_DIR$/MSajjadpour/week6/mod_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSajjadpour/week6/modul_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSajjadpour/week6/sudoku_frame.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +261,7 @@
       <workItem from="1752925625500" duration="9062000" />
       <workItem from="1754648228651" duration="6408000" />
       <workItem from="1755093139738" duration="12163000" />
-      <workItem from="1755526751338" duration="20436000" />
+      <workItem from="1755526751338" duration="20787000" />
     </task>
     <task id="LOCAL-00001" summary="Python_Course20">
       <option name="closed" value="true" />
@@ -334,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1755498537081</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="sudoku frame">
+      <created>1755775750513</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1755775750513</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +368,8 @@
     <MESSAGE value="Solution for week 2 exercise" />
     <MESSAGE value="Solution for week 5 exercise" />
     <MESSAGE value="csv exersice week5" />
-    <option name="LAST_COMMIT_MESSAGE" value="csv exersice week5" />
+    <MESSAGE value="sudoku frame" />
+    <option name="LAST_COMMIT_MESSAGE" value="sudoku frame" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
