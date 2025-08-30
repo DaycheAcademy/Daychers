@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0c1cc00-6478-4ede-a256-009bf1590d24" name="Changes" comment="sudoku frame">
-      <change afterPath="$PROJECT_DIR$/MSajjadpour/week6/mod_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MSajjadpour/week6/modul_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSajjadpour/week6/sudoku_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/MSajjadpour/week6/sudoku_frame.py" afterDir="false" />
+    <list default="true" id="d0c1cc00-6478-4ede-a256-009bf1590d24" name="Changes" comment="restaurant problem">
+      <change afterPath="$PROJECT_DIR$/MSajjadpour/week6/Multiperiod Cash Flow Problem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +261,7 @@
       <workItem from="1755093139738" duration="12163000" />
       <workItem from="1755526751338" duration="27148000" />
       <workItem from="1756108431006" duration="7492000" />
-      <workItem from="1756546921295" duration="6252000" />
+      <workItem from="1756546921295" duration="6978000" />
     </task>
     <task id="LOCAL-00001" summary="Python_Course20">
       <option name="closed" value="true" />
@@ -353,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1755776098277</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="restaurant problem">
+      <created>1756562292446</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1756562292446</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +383,8 @@
     <MESSAGE value="Solution for week 5 exercise" />
     <MESSAGE value="csv exersice week5" />
     <MESSAGE value="sudoku frame" />
-    <option name="LAST_COMMIT_MESSAGE" value="sudoku frame" />
+    <MESSAGE value="restaurant problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="restaurant problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
