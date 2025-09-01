@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0c1cc00-6478-4ede-a256-009bf1590d24" name="Changes" comment="restaurant problem">
-      <change afterPath="$PROJECT_DIR$/MSajjadpour/week3/rock_paper_scissors_game.py" afterDir="false" />
+    <list default="true" id="d0c1cc00-6478-4ede-a256-009bf1590d24" name="Changes" comment="digital-clock">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSajjadpour/week7/problems_week7.py" beforeDir="false" afterPath="$PROJECT_DIR$/MSajjadpour/week7/problems_week7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,7 @@
       <recent name="D:\Sharareh\PycharmProjects\Daychers\ShararehVahidi" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.rock_paper_scissors_game">
+  <component name="RunManager" selected="Python.problems_week7">
     <configuration name="Multiperiod Cash Flow Problem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Daychers" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="digital_clock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="problems_week7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Daychers" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,12 +151,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MSajjadpour/week6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MSajjadpour/week7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MSajjadpour/week6/digital_clock.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MSajjadpour/week7/problems_week7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.problems_week7" />
         <item itemvalue="Python.rock_paper_scissors_game" />
         <item itemvalue="Python.date_time_demo" />
         <item itemvalue="Python.Multiperiod Cash Flow Problem" />
         <item itemvalue="Python.sudoku_frame" />
-        <item itemvalue="Python.digital_clock" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +262,7 @@
       <workItem from="1755093139738" duration="12163000" />
       <workItem from="1755526751338" duration="27148000" />
       <workItem from="1756108431006" duration="7492000" />
-      <workItem from="1756546921295" duration="8499000" />
+      <workItem from="1756546921295" duration="9550000" />
     </task>
     <task id="LOCAL-00001" summary="Python_Course20">
       <option name="closed" value="true" />
@@ -372,7 +372,35 @@
       <option name="project" value="LOCAL" />
       <updated>1756563063663</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="rock-paper-scissors">
+      <created>1756723887292</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1756723887292</updated>
+    </task>
+    <task id="LOCAL-00017" summary="rock-paper-scissors">
+      <created>1756723897733</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1756723897733</updated>
+    </task>
+    <task id="LOCAL-00018" summary="digital-clock">
+      <created>1756724019669</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1756724019669</updated>
+    </task>
+    <task id="LOCAL-00019" summary="digital-clock">
+      <created>1756724038837</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1756724038837</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +427,9 @@
     <MESSAGE value="csv exersice week5" />
     <MESSAGE value="sudoku frame" />
     <MESSAGE value="restaurant problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="restaurant problem" />
+    <MESSAGE value="rock-paper-scissors" />
+    <MESSAGE value="digital-clock" />
+    <option name="LAST_COMMIT_MESSAGE" value="digital-clock" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -423,6 +453,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$FloatRange.coverage" NAME="FloatRange Coverage Results" MODIFIED="1729865074440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Daychers$mod_demo.coverage" NAME="mod_demo Coverage Results" MODIFIED="1755683655589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MSajjadpour/week6" />
     <SUITE FILE_PATH="coverage/Daychers$FBI_crime_data.coverage" NAME="FBI_crime_data Coverage Results" MODIFIED="1755678984512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MSajjadpour/FBI_crime_data" />
+    <SUITE FILE_PATH="coverage/Daychers$problems_week7.coverage" NAME="problems_week7 Coverage Results" MODIFIED="1756724591565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MSajjadpour/week7" />
     <SUITE FILE_PATH="coverage/Daychers$rock_paper_scissors_game.coverage" NAME="rock_paper_scissors_game Coverage Results" MODIFIED="1756723686899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MSajjadpour/week3" />
     <SUITE FILE_PATH="coverage/Daychers$alphabet_generator.coverage" NAME="alphabet_generator Coverage Results" MODIFIED="1739600568805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
     <SUITE FILE_PATH="coverage/Daychers$pi.coverage" NAME="pi Coverage Results" MODIFIED="1739600488744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
