@@ -35,4 +35,32 @@ print("="*60)
 
 for char1,char2 in zip(sample1[::2],sample2[1::2]):
     print(f'{char1}:{char2}')
+=========================================================================================================================================================================
+
+Assignment5
+
+numbers = []
+
+while True:
+    number = input('Enter an integer (or "Q" to Quit): ')
+    if number.upper() == 'Q':
+        break
+    try:
+        num = int(number)
+    except ValueError:
+        print("Please enter a valid integer.")
+        continue
+    numbers.append(num)
+
+total = 0
+count = 0
+for num in numbers:
+    total += num
+    count += 1
+
+if count > 0:
+    mean = total / count
+    print("Mean:", mean)
+else:
+    print("No numbers entered.")
 
