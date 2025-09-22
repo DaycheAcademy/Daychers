@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0c1cc00-6478-4ede-a256-009bf1590d24" name="Changes" comment="week 7" />
+    <list default="true" id="d10cfded-6a15-49a3-8134-bd3704d75478" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lhamkhorsand/python_programming/float_and_char_range_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/lhamkhorsand/python_programming/float_and_char_range_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lhamkhorsand/python_programming/sudoko.py" beforeDir="false" afterPath="$PROJECT_DIR$/lhamkhorsand/python_programming/sudoko.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,76 +22,112 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;FarzadSorouri&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Sharareh-V/Daychers.git&quot;,
-    &quot;accountId&quot;: &quot;be784523-1a42-4c22-b784-d82aa2898076&quot;
-  }
-}</component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="2le81HjAleM76xjmHIQRGe3r1sy" />
+  <component name="ProjectId" id="2wVBF3d9sVfMKpkDLvd9yCk6yCN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python.AlphabitRange.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FBI.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FloatRange.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RPS_game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sudoku.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Timer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Train1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.alphabet_generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.decimal_generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.stone_paper_scissors.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sudoku.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test3.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Sharareh/PycharmProjects/Daychers/ShararehVahidi&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.factorial-without-recursive-function.executor": "Run",
+    "Python.float&char_range_generator.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Asus/PycharmProjects/Daychers",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Sharareh\PycharmProjects\Daychers\ShararehVahidi" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Sharareh\PycharmProjects\Daychers\ShararehVahidi" />
-    </key>
+}]]></component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="factorial-without-recursive-function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Programming_new" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lhamkhorsand/python_programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lhamkhorsand/python_programming/factorial-without-recursive-function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="float_and_char_range_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Programming_new" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lhamkhorsand/python_programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Asus\PycharmProjects\Daychers\lhamkhorsand\python_programming\float_and_char_range_generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Programming_new" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lhamkhorsand/python_programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lhamkhorsand/python_programming/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.float_and_char_range_generator" />
+        <item itemvalue="Python.factorial-without-recursive-function" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -100,109 +140,51 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d0c1cc00-6478-4ede-a256-009bf1590d24" name="Changes" comment="" />
-      <created>1725528965477</created>
+      <changelist id="d10cfded-6a15-49a3-8134-bd3704d75478" name="Changes" comment="" />
+      <created>1746116761529</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725528965477</updated>
-      <workItem from="1725529002377" duration="191000" />
-      <workItem from="1725612253477" duration="1220000" />
-      <workItem from="1726908442396" duration="2445000" />
-      <workItem from="1726913660602" duration="1906000" />
-      <workItem from="1726915612765" duration="101000" />
-      <workItem from="1726916133759" duration="112000" />
-      <workItem from="1726917125295" duration="20573000" />
-      <workItem from="1730015150075" duration="60237000" />
-      <workItem from="1731392194237" duration="26660000" />
-      <workItem from="1731844402487" duration="1353000" />
-      <workItem from="1732099961989" duration="1369000" />
-      <workItem from="1736705297363" duration="130000" />
-      <workItem from="1736705460172" duration="81000" />
-      <workItem from="1736705587981" duration="48000" />
-      <workItem from="1736705658401" duration="2556000" />
-      <workItem from="1736788557954" duration="13000" />
-      <workItem from="1737986315983" duration="32920000" />
-      <workItem from="1738479082699" duration="6000" />
-      <workItem from="1738613619805" duration="2088000" />
-      <workItem from="1739267204075" duration="3743000" />
-      <workItem from="1739785797805" duration="1194000" />
-      <workItem from="1745244182492" duration="18000" />
+      <updated>1746116761529</updated>
+      <workItem from="1746116763963" duration="8161000" />
+      <workItem from="1746220538370" duration="598000" />
+      <workItem from="1746270346709" duration="1781000" />
+      <workItem from="1746341964452" duration="592000" />
+      <workItem from="1746364590043" duration="593000" />
+      <workItem from="1746388655373" duration="458000" />
+      <workItem from="1746427941003" duration="593000" />
+      <workItem from="1746781920322" duration="2000" />
+      <workItem from="1746962802208" duration="285000" />
+      <workItem from="1747040335229" duration="594000" />
+      <workItem from="1748265548159" duration="339000" />
     </task>
-    <task id="LOCAL-00001" summary="Python_Course20">
-      <option name="closed" value="true" />
-      <created>1731844890470</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1731844890470</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Add solvers till week 5">
-      <option name="closed" value="true" />
-      <created>1736706312313</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1736706312313</updated>
-    </task>
-    <task id="LOCAL-00003" summary="week 7">
-      <option name="closed" value="true" />
-      <created>1739600830713</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1739600830713</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Python_Course20" />
-    <MESSAGE value="Add solvers till week 5" />
-    <MESSAGE value="week 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 7" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject$FBI.coverage" NAME="FBI Coverage Results" MODIFIED="1732100206281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject$Sudoku.coverage" NAME="Sudoku Coverage Results" MODIFIED="1731074102638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject$stone_paper_scissors.coverage" NAME="stone_paper_scissors Coverage Results" MODIFIED="1731393453731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject$Timer.coverage" NAME="Timer Coverage Results" MODIFIED="1731393027782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject$Factorial.coverage" NAME="Factorial Coverage Results" MODIFIED="1729853719482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject$AlphabitRange.coverage" NAME="AlphabitRange Coverage Results" MODIFIED="1729865773058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Daychers$alphabet_generator.coverage" NAME="alphabet_generator Coverage Results" MODIFIED="1739600568805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
-    <SUITE FILE_PATH="coverage/Daychers$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1737989716343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
-    <SUITE FILE_PATH="coverage/Daychers$pi.coverage" NAME="pi Coverage Results" MODIFIED="1739600488744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
-    <SUITE FILE_PATH="coverage/pythonProject$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1731839514189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1731829901349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject$FloatRange.coverage" NAME="FloatRange Coverage Results" MODIFIED="1729865074440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Daychers$decimal_generator.coverage" NAME="decimal_generator Coverage Results" MODIFIED="1737990536286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
     <SUITE FILE_PATH="coverage/pythonProject$Train1.coverage" NAME="Train1 Coverage Results" MODIFIED="1726908447363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Daychers$RPS_game.coverage" NAME="RPS_game Coverage Results" MODIFIED="1736719565728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
-    <SUITE FILE_PATH="coverage/Daychers$sudoku.coverage" NAME="sudoku Coverage Results" MODIFIED="1739267308528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
+    <SUITE FILE_PATH="coverage/Daychers$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1737989716343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
+    <SUITE FILE_PATH="coverage/pythonProject$stone_paper_scissors.coverage" NAME="stone_paper_scissors Coverage Results" MODIFIED="1731393453731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1731064495603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Daychers$factorial_without_recursion.coverage" NAME="factorial without recursion Coverage Results" MODIFIED="1746085940815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lhamkhorsand" />
+    <SUITE FILE_PATH="coverage/pythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1731829901349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$AlphabitRange.coverage" NAME="AlphabitRange Coverage Results" MODIFIED="1729865773058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Daychers$test.coverage" NAME="test Coverage Results" MODIFIED="1746139723733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lhamkhorsand/python_programming" />
+    <SUITE FILE_PATH="coverage/pythonProject$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1731839514189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Daychers$ex.coverage" NAME="ex Coverage Results" MODIFIED="1746086419249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lhamkhorsand/python_programming" />
+    <SUITE FILE_PATH="coverage/Daychers$pi.coverage" NAME="pi Coverage Results" MODIFIED="1739600488744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
+    <SUITE FILE_PATH="coverage/Daychers$RPS_game.coverage" NAME="RPS_game Coverage Results" MODIFIED="1736719565728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
+    <SUITE FILE_PATH="coverage/pythonProject$Sudoku.coverage" NAME="Sudoku Coverage Results" MODIFIED="1731074102638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Daychers$range_generate.coverage" NAME="range_generate Coverage Results" MODIFIED="1746088471673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lhamkhorsand/python_programming" />
+    <SUITE FILE_PATH="coverage/pythonProject$Factorial.coverage" NAME="Factorial Coverage Results" MODIFIED="1729853719482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Daychers$decimal_generator.coverage" NAME="decimal_generator Coverage Results" MODIFIED="1737990536286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
+    <SUITE FILE_PATH="coverage/pythonProject$Timer.coverage" NAME="Timer Coverage Results" MODIFIED="1731393027782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Daychers$sudoku.coverage" NAME="sudoku Coverage Results" MODIFIED="1739267308528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
+    <SUITE FILE_PATH="coverage/pythonProject$FBI.coverage" NAME="FBI Coverage Results" MODIFIED="1732100206281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Daychers$alphabet_generator.coverage" NAME="alphabet_generator Coverage Results" MODIFIED="1739600568805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
+    <SUITE FILE_PATH="coverage/Daychers$float_char_range_generator.coverage" NAME="float&amp;char_range_generator Coverage Results" MODIFIED="1746102852432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lhamkhorsand/python_programming" />
+    <SUITE FILE_PATH="coverage/pythonProject$FloatRange.coverage" NAME="FloatRange Coverage Results" MODIFIED="1729865074440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Daychers$factorial_without_recursive_function.coverage" NAME="factorial-without-recursive-function Coverage Results" MODIFIED="1746102146652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lhamkhorsand/python_programming" />
   </component>
 </project>
