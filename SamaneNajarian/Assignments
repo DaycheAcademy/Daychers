@@ -45,17 +45,16 @@ while True:
     number = input('Enter an integer (or "Q" to Quit): ')
     if number.upper() == 'Q':
         break
-    try:
-        num = int(number)
-    except ValueError:
+    elif number.isdigit():
+        numbers.append(number)
+    else:
         print("Please enter a valid integer.")
         continue
-    numbers.append(num)
 
 total = 0
 count = 0
 for num in numbers:
-    total += num
+    total += int(num)
     count += 1
 
 if count > 0:
@@ -64,3 +63,22 @@ if count > 0:
 else:
     print("No numbers entered.")
 
+print("="*60)
+
+import statistics
+
+numbers = []
+while True:
+    num = input('Enter an integer (or "Q" to Quit): ')
+    if num.upper() == 'Q':
+        break
+    if num.isdigit():
+        numbers.append(int(num))
+    else:
+        print("Please enter a valid integer.")
+
+if numbers:
+    meanValue = statistics.mean(numbers)
+    print("Mean:", meanValue)
+else:
+    print("No numbers entered.")
