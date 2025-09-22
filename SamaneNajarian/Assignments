@@ -1,0 +1,84 @@
+Assignment1
+
+hopWiz = ["HopWiz" if num % 15 == 0 else "Hop" if num % 3 == 0 else "Wiz" if num % 5 == 0  else (str(num)) for num in range (101)]
+print(hopWiz)
+===================================================================================================================================================================
+
+Assignment2
+
+alphabetstring = 'ABCDEFGHIJKLMNOPKQSTUVWXYZ'
+
+for char in alphabetstring[-1::-1]:
+    print(char)
+====================================================================================================================================================================
+
+Assignment3
+
+for i in range(2, 1001):
+    for j in range(2, int(i**0.5) + 1):
+        if i % j == 0:
+            break
+    else:
+        print(f'{i} is a prime number.')
+=======================================================================================================================================================================
+
+Assignment4
+
+alphabetstring = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+sample1 = 'ABCDEFGHIJKLM'
+sample2 = 'NOPQRSTUVWXYZ'
+
+for char in reversed(alphabetstring):
+    print(char)
+
+print("="*60)
+
+for char1,char2 in zip(sample1[::2],sample2[1::2]):
+    print(f'{char1}:{char2}')
+=========================================================================================================================================================================
+
+Assignment5
+
+numbers = []
+
+while True:
+    number = input('Enter an integer (or "Q" to Quit): ')
+    if number.upper() == 'Q':
+        break
+    elif number.isdigit():
+        numbers.append(number)
+    else:
+        print("Please enter a valid integer.")
+        continue
+
+total = 0
+count = 0
+for num in numbers:
+    total += int(num)
+    count += 1
+
+if count > 0:
+    mean = total / count
+    print("Mean:", mean)
+else:
+    print("No numbers entered.")
+
+print("="*60)
+
+import statistics
+
+numbers = []
+while True:
+    num = input('Enter an integer (or "Q" to Quit): ')
+    if num.upper() == 'Q':
+        break
+    if num.isdigit():
+        numbers.append(int(num))
+    else:
+        print("Please enter a valid integer.")
+
+if numbers:
+    meanValue = statistics.mean(numbers)
+    print("Mean:", meanValue)
+else:
+    print("No numbers entered.")
