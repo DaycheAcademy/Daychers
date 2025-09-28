@@ -88,61 +88,58 @@ Assignment6
 
 import random
 
-your_wins = 0
-computer_wins = 0
-ties = 0
+scores = {'Player': 0, 'Computer': 0, 'Ties': 0}
+
+valid_choices = {
+    'R': 'R', 'Rock': 'R', 'rock': 'R', 'r': 'R',
+    'P': 'P', 'Paper': 'P', 'paper': 'P', 'p': 'P',
+    'S': 'S', 'Scissors': 'S', 'sissors': 'S', 's': 'S'
+}
+
+win_rules = {
+    'R': 'S',
+    'P': 'R',
+    'S': 'P'
+}
+
 while True:
-    number = input('How many rounds do you want to play? (or "Q" to Quit): ')
-    if number.upper() == 'Q':
+    rounds = input('How many rounds do you want to play? (or "Q" to Quit): ')
+    if rounds.upper() == 'Q':
         break
+    if not rounds.isdigit():
+        print('Please enter an integer')
+        continue
 
-    if number.isdigit():
-        number = int(number)
-        played = 0
+    rounds = int(rounds)
+    played = 0
 
-        while played < number:
-            your_choice = input('Enter R or P or S: ')
-            if your_choice not in ['R', 'Rock', 'rock', 'r', 'P', 'Paper', 'p', 'paper', 'S', 'Scissors', 'sissors','s']:
-                print("Please enter a valid item!")
-                continue
-            computer_choice = random.choice(['R', 'P', 'S'])
-            print(f"Your choice: {your_choice}, Computer choice: {computer_choice}")
-            if (your_choice in ['P','Paper','p','paper']) and (computer_choice in ['R','Rock','rock','r']):
-                your_wins += 1
-                print(f"Yors Score: {your_wins}, Computer Score: {computer_wins}")
-            elif (your_choice in ['P','Paper','p','paper']) and (computer_choice in ['S','Sissors','sissors','s']):
-                computer_wins += 1
-                print(f"Yors Score: {your_wins}, Computer Score: {computer_wins}")
-            elif (your_choice in ['P','Paper','p','paper']) and (computer_choice in ['P','Paper','p','paper']):
-                ties += 1
-                print(f"Yors Score: {your_wins}, Computer Score: {computer_wins}")
-            elif (your_choice in ['R','Rock','rock','r']) and (computer_choice in ['P','Paper','p','paper']):
-                computer_wins += 1
-                print(f"Yors Score: {your_wins}, Computer Score: {computer_wins}")
-            elif (your_choice in ['R','Rock','rock','r']) and (computer_choice in ['S','Sissors','sissors','s']):
-                your_wins += 1
-                print(f"Yors Score: {your_wins}, Computer Score: {computer_wins}")
-            elif (your_choice in ['R','Rock','rock','r']) and (computer_choice in ['R','Rock','rock','r']):
-                ties += 1
-                print(f"Yors Score: {your_wins}, Computer Score: {computer_wins}")
-            elif (your_choice in ['S','Sissors','sissors','s']) and (computer_choice in ['P','Paper','p','paper']):
-                your_wins += 1
-                print(f"Yors Score: {your_wins}, Computer Score: {computer_wins}")
-            elif (your_choice in ['S','Sissors','sissors','s']) and (computer_choice in ['R','Rock','rock','r']):
-                computer_wins += 1
-                print(f"Yors Score: {your_wins}, Computer Score: {computer_wins}")
-            elif (your_choice in ['S','Sissors','sissors','s']) and (computer_choice in ['S','Sissors','sissors','s']):
-                ties += 1
-                print(f"Yors Score: {your_wins}, Computer Score: {computer_wins}")
-            played += 1
-        break
-    else:
-        print("Please enter a valid integer.")
-if your_wins > computer_wins:
-    print('Great Job! You Won')
-elif your_wins < computer_wins:
-    print ('Computer won!')
+    while played < rounds:
+        player_input = input('Enter R, P or S: ')
+        if player_input not in valid_choices:
+            print('Please enter a valid item.')
+            continue
+
+        your_choice = valid_choices[player_input]
+        computer_choice = random.choice(['R','P','S'])
+        print(f"Your choice: {your_choice}, Computer choice: {computer_choice}")
+
+        if your_choice == computer_choice:
+            scores['Ties'] += 1
+        elif win_rules[your_choice] == computer_choice:
+            scores['Player'] += 1
+        else:
+            scores['Computer'] += 1
+        print(f'Your Score: {scores['Player']}, Computer Score: {scores['Computer']}')
+
+        played += 1
+    break
+
+print(f"Final Score — You: {scores['Player']}, Computer: {scores['Computer']}, Ties: {scores['Ties']}")
+if scores['Player'] > scores['Computer']:
+    print("Great Job! You Won")
+elif scores['Player'] < scores['Computer']:
+    print("Computer won!")
 else:
-    print('It is a tie')
+    print("It is a tie")
 
 
