@@ -114,7 +114,7 @@ while True:
     played = 0
 
     while played < rounds:
-        player_input = input('Enter R, P or S: ')
+        player_input = input('Enter your choice: ')
         if player_input not in valid_choices:
             print('Please enter a valid item.')
             continue
