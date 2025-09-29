@@ -93,7 +93,7 @@ scores = {'Player': 0, 'Computer': 0, 'Ties': 0}
 valid_choices = {
     'R': 'R', 'Rock': 'R', 'rock': 'R', 'r': 'R',
     'P': 'P', 'Paper': 'P', 'paper': 'P', 'p': 'P',
-    'S': 'S', 'Scissors': 'S', 'sissors': 'S', 's': 'S'
+    'S': 'S', 'Scissors': 'S', 'scissors': 'S', 's': 'S'
 }
 
 win_rules = {
