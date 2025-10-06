@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0c1cc00-6478-4ede-a256-009bf1590d24" name="Changes" comment="digital-clock">
+    <list default="true" id="d0c1cc00-6478-4ede-a256-009bf1590d24" name="Changes" comment="problems-week7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSajjadpour/week7/problems_week7.py" beforeDir="false" afterPath="$PROJECT_DIR$/MSajjadpour/week7/problems_week7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSajjadpour/week6/mod_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSajjadpour/week6/modul_demo.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,51 +99,7 @@
       <recent name="D:\Sharareh\PycharmProjects\Daychers\ShararehVahidi" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.problems_week7">
-    <configuration name="Multiperiod Cash Flow Problem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Daychers" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MSajjadpour/week6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MSajjadpour/week6/Multiperiod Cash Flow Problem.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="date_time_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Daychers" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MSajjadpour/week6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MSajjadpour/week6/date_time_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.sudoku_play">
     <configuration name="problems_week7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Daychers" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,13 +166,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sudoku_play" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Daychers" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MSajjadpour/week9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MSajjadpour/week9/sudoku_play.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sudoku_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Daychers" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MSajjadpour/week9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MSajjadpour/week9/sudoku_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sudoku_play" />
+        <item itemvalue="Python.sudoku_test" />
+        <item itemvalue="Python.sudoku_frame" />
         <item itemvalue="Python.problems_week7" />
         <item itemvalue="Python.rock_paper_scissors_game" />
-        <item itemvalue="Python.date_time_demo" />
-        <item itemvalue="Python.Multiperiod Cash Flow Problem" />
-        <item itemvalue="Python.sudoku_frame" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +263,9 @@
       <workItem from="1755093139738" duration="12163000" />
       <workItem from="1755526751338" duration="27148000" />
       <workItem from="1756108431006" duration="7492000" />
-      <workItem from="1756546921295" duration="9550000" />
+      <workItem from="1756546921295" duration="10385000" />
+      <workItem from="1756795160442" duration="800000" />
+      <workItem from="1758263013483" duration="12198000" />
     </task>
     <task id="LOCAL-00001" summary="Python_Course20">
       <option name="closed" value="true" />
@@ -400,7 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1756724038837</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="problems-week7">
+      <created>1756724996872</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1756724996872</updated>
+    </task>
+    <task id="LOCAL-00021" summary="problems-week7">
+      <created>1756725007370</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1756725007370</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +446,8 @@
     <MESSAGE value="restaurant problem" />
     <MESSAGE value="rock-paper-scissors" />
     <MESSAGE value="digital-clock" />
-    <option name="LAST_COMMIT_MESSAGE" value="digital-clock" />
+    <MESSAGE value="problems-week7" />
+    <option name="LAST_COMMIT_MESSAGE" value="problems-week7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -452,12 +470,14 @@
     <SUITE FILE_PATH="coverage/pythonProject$FBI.coverage" NAME="FBI Coverage Results" MODIFIED="1732100206281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$FloatRange.coverage" NAME="FloatRange Coverage Results" MODIFIED="1729865074440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Daychers$mod_demo.coverage" NAME="mod_demo Coverage Results" MODIFIED="1755683655589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MSajjadpour/week6" />
+    <SUITE FILE_PATH="coverage/Daychers$sudoku_test.coverage" NAME="sudoku_test Coverage Results" MODIFIED="1758866239336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MSajjadpour/week9" />
     <SUITE FILE_PATH="coverage/Daychers$FBI_crime_data.coverage" NAME="FBI_crime_data Coverage Results" MODIFIED="1755678984512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MSajjadpour/FBI_crime_data" />
-    <SUITE FILE_PATH="coverage/Daychers$problems_week7.coverage" NAME="problems_week7 Coverage Results" MODIFIED="1756724591565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MSajjadpour/week7" />
+    <SUITE FILE_PATH="coverage/Daychers$problems_week7.coverage" NAME="problems_week7 Coverage Results" MODIFIED="1756724941734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MSajjadpour/week7" />
     <SUITE FILE_PATH="coverage/Daychers$rock_paper_scissors_game.coverage" NAME="rock_paper_scissors_game Coverage Results" MODIFIED="1756723686899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MSajjadpour/week3" />
     <SUITE FILE_PATH="coverage/Daychers$alphabet_generator.coverage" NAME="alphabet_generator Coverage Results" MODIFIED="1739600568805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
     <SUITE FILE_PATH="coverage/Daychers$pi.coverage" NAME="pi Coverage Results" MODIFIED="1739600488744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
     <SUITE FILE_PATH="coverage/Daychers$RPS_game.coverage" NAME="RPS_game Coverage Results" MODIFIED="1736719565728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShararehVahidi" />
+    <SUITE FILE_PATH="coverage/Daychers$sudoku_play.coverage" NAME="sudoku_play Coverage Results" MODIFIED="1758866426388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MSajjadpour/week9" />
     <SUITE FILE_PATH="coverage/Daychers$digital_clock.coverage" NAME="digital_clock Coverage Results" MODIFIED="1755855787975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MSajjadpour/week6" />
     <SUITE FILE_PATH="coverage/pythonProject$Sudoku.coverage" NAME="Sudoku Coverage Results" MODIFIED="1731074102638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1731829901349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -470,6 +490,6 @@
     <SUITE FILE_PATH="coverage/pythonProject$Timer.coverage" NAME="Timer Coverage Results" MODIFIED="1731393027782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Daychers$csv_sample.coverage" NAME="csv_sample Coverage Results" MODIFIED="1755498273760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MSajjadpour/week5" />
     <SUITE FILE_PATH="coverage/pythonProject$Factorial.coverage" NAME="Factorial Coverage Results" MODIFIED="1729853719482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Daychers$sudoku_frame.coverage" NAME="sudoku_frame Coverage Results" MODIFIED="1755856018747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MSajjadpour/week6" />
+    <SUITE FILE_PATH="coverage/Daychers$sudoku_frame.coverage" NAME="sudoku_frame Coverage Results" MODIFIED="1758263044188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MSajjadpour/week6" />
   </component>
 </project>
