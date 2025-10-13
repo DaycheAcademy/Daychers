@@ -82,3 +82,63 @@ if numbers:
     print("Mean:", meanValue)
 else:
     print("No numbers entered.")
+=========================================================================================================================================================================
+
+Assignment6
+
+import random
+
+scores = {'Player': 0, 'Computer': 0, 'Ties': 0}
+
+valid_choices = {
+    'R': 'R', 'Rock': 'R', 'rock': 'R', 'r': 'R',
+    'P': 'P', 'Paper': 'P', 'paper': 'P', 'p': 'P',
+    'S': 'S', 'Scissors': 'S', 'scissors': 'S', 's': 'S'
+}
+
+win_rules = {
+    'R': 'S',
+    'P': 'R',
+    'S': 'P'
+}
+
+while True:
+    rounds = input('How many rounds do you want to play? (or "Q" to Quit): ')
+    if rounds.upper() == 'Q':
+        break
+    if not rounds.isdigit():
+        print('Please enter an integer')
+        continue
+
+    rounds = int(rounds)
+    played = 0
+
+    while played < rounds:
+        player_input = input('Enter your choice: ')
+        if player_input not in valid_choices:
+            print('Please enter a valid item.')
+            continue
+
+        your_choice = valid_choices[player_input]
+        computer_choice = random.choice(['R','P','S'])
+        print(f"Your choice: {your_choice}, Computer choice: {computer_choice}")
+
+        if your_choice == computer_choice:
+            scores['Ties'] += 1
+        elif win_rules[your_choice] == computer_choice:
+            scores['Player'] += 1
+        else:
+            scores['Computer'] += 1
+        print(f'Your Score: {scores['Player']}, Computer Score: {scores['Computer']}')
+
+        played += 1
+    break
+
+print(f"Final Score — You: {scores['Player']}, Computer: {scores['Computer']}, Ties: {scores['Ties']}")
+if scores['Player'] > scores['Computer']:
+    print("Great Job! You Won")
+elif scores['Player'] < scores['Computer']:
+    print("Computer won!")
+else:
+    print("It is a tie")
+
