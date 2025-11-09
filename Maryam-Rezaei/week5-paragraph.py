@@ -9,8 +9,7 @@ life functions. am is are
 sampleParagraphList = list(sampleParagraph.split())
 print('Total number of words:', len(sampleParagraphList))
 
-for i in range(len(sampleParagraphList)):
-    sampleParagraphList[i] = sampleParagraphList[i].replace('.', '').replace(',', '').lower()
+sampleParagraphList = [word.replace('.', '').replace(',', '').lower() for word in sampleParagraphList]
 
 uniqueWords = set(sampleParagraphList)
 print('Total number of unique words:', len(uniqueWords))
@@ -18,10 +17,9 @@ print('Total number of unique words:', len(uniqueWords))
 tobeList = ['am', 'is', 'are', 'was', 'were']
 
 tobeCounter = 0
-for i in uniqueWords:
-    if i in tobeList:
-        numTobe = sampleParagraphList.count(i)
-        print(f"Number of '{i}' : {numTobe}")
-        tobeCounter += numTobe
+for i in tobeList:
+    tobeCount = sampleParagraphList.count(i)
+    print(f"Number of '{i}' : {tobeCount}")
+    tobeCounter += tobeCount
 
 print('Total number of tobe occurrence:', tobeCounter)
