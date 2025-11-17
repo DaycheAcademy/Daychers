@@ -90,12 +90,12 @@ plot_crime_dict(
     ["Murders by Region", "Violent Crimes by Region", "Nonviolent Crimes by Region"]
 )
 
-# ---- Step 3: Create dictionaries ----
+# ---- Step 7: Create dictionaries ----
 murder_by_state = accum_crime("State", "Murder", crimeList)
 violent_by_state = accum_violent_crime("State", crimeList)
 nonviolent_by_state = accum_nonviolent_crime("State", crimeList)
 
-# ---- Step 7: Violent crimes by State and distance from national mean ----
+# ---- Step 8: Violent crimes by State and distance from national mean ----
 violent_by_state = accum_violent_crime("State", crimeList)
 
 # Convert to DataFrame for easier tabular printing
